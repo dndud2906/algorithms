@@ -14,7 +14,7 @@ void binarySearch(int val)
 	int start = 0;
 	int end = n - 1;
 	int mid;
-	while (end - start >= 0)
+	while (end>=start)
 	{
 		mid = (start + end) / 2;
 
